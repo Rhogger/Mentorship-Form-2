@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+main header h1,
+legend {
+  font-family: 'Staatliches', cursive;
+}
+
+main header p,
+label {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  font-size: 6.25%;
+}
+
+body {
+  background-color: #BFD7E4;
+}
+
+body::before {
+  background-color: #293241;
+
+  width: 100%;
+  height: 465rem;
+
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+
+}
+
+.page {
+  width: 750rem;
+  margin: 0 auto;
+}
+
+main header {
+  color: #FFFFFF;
+
+  margin-top: 107rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main header h1 {
+  font-size: 36rem;
+  line-height: 45rem;
+  text-transform: uppercase;
+}
+
+main header p {
+  font-size: 16rem;
+  line-height: 24rem;
+}
+
+main header img {
+  margin: 24rem 0 32rem;
+}
+
+form {
+  background-color: #FFFFFF;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 36rem;
+}
+
+/* fieldset#personal-info legend {
+  color: #FFF;
+
+  background-color: #F67669;
+
+  padding: 50rem 275rem;
+} */
+
+legend {
+  font-size: 24rem;
+  line-height: 34rem;
+  color: #253B51;
+
+  margin: 0 auto;
+}
+
+label {
+  font-size: 14rem;
+  line-height: 24rem;
+  color: #4E4958;
+}
+
+input {
+  background-color: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 300rem;
+  height: 55rem;
+}
+
+.wrapper {
+  display: inline-block;
+}
