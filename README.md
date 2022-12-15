@@ -57,3 +57,8 @@ To access the site is simple, just click on the <a href = "https://mentorship-fo
   <hr>
 
 </div>
+
+## TODO List <a name = "todo_list"></a>
+
+- [ ] Improve responsiveness for Mobile.
+- [ ] Add asterisks (*) to required fields and style them. 
