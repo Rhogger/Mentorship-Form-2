@@ -1,5 +1,5 @@
-@media (min-width: 750px) {
-  .body::before {
-    background-color: #BFD7E4;
+@media (max-width: 750px) {
+  body {
+    background: #293241;
   }
 }
