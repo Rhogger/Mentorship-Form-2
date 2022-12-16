@@ -62,3 +62,4 @@ To access the site is simple, just click on the <a href = "https://mentorship-fo
 
 - [ ] Improve responsiveness for Mobile.
 - [ ] Add asterisks (*) to required fields and style them. 
+- [ ] Fix the initial scale of the page when opened on mobile.
